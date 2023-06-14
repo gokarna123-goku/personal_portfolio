@@ -13,10 +13,29 @@ a{
     outline: none;
     box-shadow: none;
 }
+.form-control, .form-control:active:focus, .form-control.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-select, .form-select:active:focus, .form-select.active:focus{
+    outline: none;
+    box-shadow: none;
+}
 
+.nav_padding{
+    padding: 10px 60px;
+}
 .main_section{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
+    /* background: #061829; */
+    background: #141515;
+    overflow: hidden;
+}
+
+.hero_nav_section{
+    width: 100%;
+    height: 100vh;
     background: url("./img/bg.png") no-repeat;
     background-position: center right;
     background-size: cover;
