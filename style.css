@@ -10,19 +10,21 @@ a{
 }
 
 :root{
+
+    /* ========================= Finalized color ========================= */
+    --bg_color: #191c26;
+    --primary_color: #332FD0;
+    --secondary_color: #ffffff;
+    --tertiary_color: #939393;
+
+    /* Demo Colors while selecting color for the portfolio design */
     /* --bg_color: #0c181f; */
     /* --bg_color: #171818; */
-    --bg_color: #191c26;
     /* --primary_color: #f52225; */
     /* --primary_color: #2623da; */
-    --primary_color: #332FD0;
     /* --primary_color: #d62929; */
-    --secondary_color: #ffffff;
     /* --tertiary_color: #9e9e9e; */
-    --tertiary_color: #939393;
-}
-.nav-link{
-    color: var(--tertiary_color);
+    /* ============================================== */
 }
 
 .btn, .btn:active:focus, .btn.active:focus{
