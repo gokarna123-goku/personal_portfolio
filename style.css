@@ -12,19 +12,62 @@ a{
 .btn, .btn:active:focus, .btn.active:focus{
     outline: none;
     box-shadow: none;
+    border-radius: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
 }
 .form-control, .form-control:active:focus, .form-control.active:focus{
     outline: none;
     box-shadow: none;
+    border-radius: 0;
 }
 .form-select, .form-select:active:focus, .form-select.active:focus{
     outline: none;
     box-shadow: none;
+    border-radius: 0;
 }
 
 .nav_padding{
     padding: 10px 60px;
 }
+.main_padding{
+    padding: 60px 100px;
+}
+
+.primary_btn{
+    background: #141515;
+    border: 2px solid #141515;
+    color: #fefefe;
+    transition: 0.5s ease-out;
+}
+.primary_btn:hover{
+    background: transparent;
+    border: 2px solid #141515;
+}
+.secondary_btn{
+    background: transparent;
+    border: 2px solid #141515;
+    transition: 0.5s ease-out;
+}
+.secondary_btn:hover{
+    background: #141515;
+    border: 2px solid #141515;
+}
+.tertiary_btn{
+    background: transparent;
+    border: 2px solid transparent;
+    color: rebeccapurple;
+}
+.tertiary_btn:hover{
+    color: #061829;
+}
+
+
+
+
+
+/*  */
 .main_section{
     width: 100%;
     height: auto;
