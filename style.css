@@ -18,7 +18,7 @@ a{
     --tertiary_color: #939393;
     --text_xxl: 3.5rem;
     --text_xl: 2.0rem;
-    --text_l: 1.1rem;
+    --text_l: 1.3rem;
     --text_m: 1.0rem;
     --text_sm: 0.99rem;
     --fw_bold: bold;
@@ -191,6 +191,30 @@ nav .nav-link.active:hover{
     align-items: center;
     justify-content: start;
     background: rgba(102, 51, 153, 0.02);
+}
+.hero_section .greeting{
+    font-size: var(--text_l);
+    font-weight: var(--fw_500);
+    letter-spacing: 0.01rem;
+    color: var(--tertiary_color);
+}
+.hero_section .intro{
+    font-size: var(--text_xxl);
+    font-weight: var(--fw_bold);
+    letter-spacing: 0.05rem;
+    color: var(--secondary_color);
+}
+.hero_section .professional{
+    font-size: var(--text_xl);
+    color: var(--primary_color);
+    letter-spacing: 0.03rem;
+    font-weight: var(--fw_500);
+}
+.hero_section .desc{
+    font-size: 1.05rem;
+    font-weight: var(--fw_500);
+    letter-spacing: 0.01rem;
+    color: var(--tertiary_color);
 }
 
 
