@@ -14,9 +14,11 @@ a{
     /* --bg_color: #171818; */
     --bg_color: #191c26;
     /* --primary_color: #f52225; */
-    --primary_color: #d62929;
-    --secondary_color: ;
-    --tertiary_color: ;
+    /* --primary_color: #2623da; */
+    --primary_color: #332FD0;
+    /* --primary_color: #d62929; */
+    --secondary_color: #ffffff;
+    --tertiary_color: #707070;
 }
 .nav-link{
     color: var(--primary_color);
