@@ -16,8 +16,8 @@ a{
     --primary_color: #332FD0;
     --secondary_color: #ffffff;
     --tertiary_color: #939393;
-    --text_xxl: 3.5rem;
-    --text_xl: 2.0rem;
+    --text_xxl: 4.0rem;
+    --text_xl: 2.5rem;
     --text_l: 1.3rem;
     --text_m: 1.0rem;
     --text_sm: 0.99rem;
@@ -44,7 +44,7 @@ a{
     outline: none;
     box-shadow: none;
     border-radius: 0;
-    font-size: var(--text_l);
+    font-size: 1.07rem;
     font-weight: var(--fw_500);
     letter-spacing: 0.02rem;
 }
@@ -112,22 +112,6 @@ a{
     color: rgba(51, 47, 208, 0.8);
 }
 
-.text_xxl{
-    font-size: 3.5rem;
-}
-.fw_bold{
-    font-weight: bold;
-}
-.fw_600{
-    font-size: 600;
-}
-.fw_550{
-    font-weight: 550;
-}
-.fw_500{
-    font-weight: 500;
-}
-
 
 /*  */
 .main_section{
@@ -150,20 +134,20 @@ nav{
     background: transparent;
 }
 nav .logo_section{
-    font-size: var(--text_xl);
-    font-weight: var(--fw_600);
+    font-size: 2.0rem;
+    font-weight: 600;
     color: var(--primary_color);
     letter-spacing: 0.05rem;
 }
 nav .logo_section span{
     font-size: 1.65rem;
-    font-weight: var(--fw_550);
+    font-weight: 550;
     color: var(--tertiary_color);
     letter-spacing: 0.05rem;
 }
 nav .nav-link{
     font-size: 1.12rem;
-    font-weight: var(--fw_550);
+    font-weight: 550;
     color: var(--tertiary_color);
     margin-left: 1.3rem;
     letter-spacing: 0.01rem;
@@ -174,7 +158,7 @@ nav .nav-link:hover{
 }
 nav .active{
     font-size: 1.15rem;
-    font-weight: var(--fw_550);
+    font-weight: 550;
     color: var(--primary_color);
     letter-spacing: 0.02rem;
 }
@@ -193,26 +177,26 @@ nav .nav-link.active:hover{
     background: rgba(102, 51, 153, 0.02);
 }
 .hero_section .greeting{
-    font-size: var(--text_l);
-    font-weight: var(--fw_500);
+    font-size: 1.5rem;
+    font-weight: 500;
     letter-spacing: 0.01rem;
     color: var(--tertiary_color);
 }
 .hero_section .intro{
-    font-size: var(--text_xxl);
-    font-weight: var(--fw_bold);
+    font-size: 4.1rem;
+    font-weight: bold;
     letter-spacing: 0.05rem;
     color: var(--secondary_color);
 }
 .hero_section .professional{
-    font-size: var(--text_xl);
+    font-size: 2.5rem;
     color: var(--primary_color);
     letter-spacing: 0.03rem;
-    font-weight: var(--fw_500);
+    font-weight: 550;
 }
 .hero_section .desc{
-    font-size: 1.05rem;
-    font-weight: var(--fw_500);
+    font-size: 1.15rem;
+    font-weight: 500;
     letter-spacing: 0.01rem;
     color: var(--tertiary_color);
 }
