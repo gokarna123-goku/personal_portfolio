@@ -37,7 +37,7 @@ a{
     /* --primary_color: #d62929; */
     /* --tertiary_color: #9e9e9e; */
     /* ============================================== */
-    
+
 }
 
 .btn, .btn:active:focus, .btn.active:focus{
@@ -64,6 +64,16 @@ a{
 }
 .main_padding{
     padding: 60px 100px;
+}
+
+.primary_color{
+    color: var(--primary_color);
+}
+.secondary_color{
+    color: var(--secondary_color);
+}
+.tertiary_color{
+    color: var(--tertiary_color);
 }
 
 .primary_btn{
@@ -101,6 +111,7 @@ a{
 .tertiary_btn:hover{
     color: rgba(51, 47, 208, 0.8);
 }
+
 .text_xxl{
     font-size: 3.5rem;
 }
@@ -117,9 +128,17 @@ a{
     font-weight: 500;
 }
 
-
-
-
+.flex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_start_column{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /*  */
 .main_section{
@@ -178,7 +197,7 @@ nav .nav-link.active:hover{
 
 .hero_section{
     width: 100%;
-    height: 98vh;
+    height: auto;
 }
 
 
