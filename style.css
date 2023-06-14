@@ -128,17 +128,6 @@ a{
     font-weight: 500;
 }
 
-.flex_between{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.flex_start_column{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-}
 
 /*  */
 .main_section{
@@ -197,7 +186,11 @@ nav .nav-link.active:hover{
 
 .hero_section{
     width: 100%;
-    height: auto;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(102, 51, 153, 0.02);
 }
 
 
