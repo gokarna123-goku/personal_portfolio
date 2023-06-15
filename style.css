@@ -224,8 +224,8 @@ nav .nav-link.active:hover{
 }
 .hero_section .my_social_account{
     position: absolute;
-    right: 10px;
-    bottom: 30%;
+    right: 2%;
+    bottom: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,11 +238,17 @@ nav .nav-link.active:hover{
     border-radius: 4px;
     background: rgba(102, 51, 153, 0.099);
     border: 2px solid var(--primary_color);
-    font-size: 1.2rem;
-    color: var(--primary_color);
+    font-size: 1.1rem;
+    color: var(--tertiary_color);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
+}
+.my_social_account .social_box:hover{
+    border: 2px solid rgba(102, 51, 153, 0.15);
+    background: var(--primary_color);
+    color: var(--secondary_color);
 }
 
 
