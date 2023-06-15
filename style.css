@@ -232,6 +232,18 @@ nav .nav-link.active:hover{
     flex-direction: column;
     row-gap: 1.2rem;
 }
+.my_social_account .social_box{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background: rgba(102, 51, 153, 0.099);
+    border: 2px solid var(--primary_color);
+    font-size: 1.2rem;
+    color: var(--primary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
