@@ -211,7 +211,7 @@ nav .nav-link.active:hover{
     color: var(--secondary_color);
 }
 .hero_section .professional{
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     color: var(--primary_color);
     letter-spacing: 0.03rem;
     font-weight: 550;
@@ -251,6 +251,10 @@ nav .nav-link.active:hover{
     color: var(--secondary_color);
 }
 
+/* .abt_img_box{
+    position: relative;
+} */
+
 .about_img{
     width: 100%;
     height: 75vh;
@@ -260,6 +264,19 @@ nav .nav-link.active:hover{
     box-shadow:  6px 6px 9px #0d0f14,
                  -6px -6px 9px #252938;
 }
+/* .abt_img_box .experience{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: auto;
+    padding: 10px 15px;
+    background: rgba(102, 51, 153, 0.099);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 
 /* END Of CSS */
