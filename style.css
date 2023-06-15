@@ -390,7 +390,7 @@ nav .nav-link.active:hover{
     width: 100%;
     height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.3rem;
 }
 .profession_box{
@@ -398,7 +398,7 @@ nav .nav-link.active:hover{
     height: auto;
     background: rgba(13, 15, 20, 0.6);
     border-radius: 4px;
-    padding: 30px;
+    padding: 40px;
 }
 
 .profession_box .badge{
@@ -407,6 +407,26 @@ nav .nav-link.active:hover{
     font-size: 0.99rem;
     color: var(--secondary_color);
     font-weight: 500;
+    margin-bottom: 2.0rem;
+}
+.progress_data .progress_title{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--secondary_color);
+    letter-spacing: 0.02rem;
+}
+.progress_data .progress_rate{
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: var(--tertiary_color);
+    letter-spacing: 0.02rem;
+}
+.progress{
+    height: 6px;
+    background: var(--tertiary_color);
+}
+.progress .progress-bar{
+    background: var(--primary_color);
 }
 
 /* END Of CSS */
