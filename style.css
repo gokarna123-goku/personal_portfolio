@@ -251,6 +251,13 @@ nav .nav-link.active:hover{
     color: var(--secondary_color);
 }
 
+
+/* About Section */
+.about_section{
+    width: 100%;
+    height: auto;
+}
+
 .abt_img_box{
     position: relative;
     width: 100%;
@@ -283,7 +290,7 @@ nav .nav-link.active:hover{
     width: 100%;
     height: auto;
 }
-.abt_data .intro{
+.about_section .intro{
     font-size: 0.99rem;
     font-weight: 550;
     color: var(--tertiary_color);
@@ -322,7 +329,7 @@ nav .nav-link.active:hover{
     justify-content: center;
     color: var(--secondary_color);
     border-radius: 0px;
-    font-size: 1.05rem;
+    font-size: 0.89rem;
 }
 .reason p{
     font-size: 1.15rem;
