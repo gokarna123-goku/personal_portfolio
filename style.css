@@ -290,18 +290,52 @@ nav .nav-link.active:hover{
     letter-spacing: 0.01rem;
 }
 .abt_data .about_tag{
-    font-size: 1.4rem;
+    font-size: 2.7rem;
     font-weight: 600;
-    color: var(--primary_color);
+    color: var(--secondary_color);
     letter-spacing: 0.05rem;
+}
+.abt_data .desc{
+    font-size: 1.1rem;
+    color: var(--tertiary_color);
+    font-weight: 500;
 }
 .why_me_section{
     width: 100%;
     height: auto;
     display: flex;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: 0.8rem;
     flex-direction: column;
+}
+.why_me_section .reason{
+    width: 100%;
+    height: auto;
+    column-gap: 0.5rem;
+}
+.reason i{
+    width: 30px;
+    height: 30px;
+    background: var(--primary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary_color);
+    border-radius: 4px;
+    font-size: 1.05rem;
+}
+.reason p{
+    font-size: 1.1rem;
+    color: var(--tertiary_color);
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+}
+.abt_data .hobbies{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
 }
 
 
