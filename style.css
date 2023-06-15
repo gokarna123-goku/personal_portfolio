@@ -380,7 +380,7 @@ nav .nav-link.active:hover{
 .my_professional_info .nav-pills .nav-link.active, 
 .my_professional_info .nav-pills .show>.nav-link {
     /* color: #fa6b05; */
-    color: var(--primary_color);
+    color: var(--secondary_color);
     border-bottom: none;
     background: transparent;
     border: 2px solid var(--primary_color);
@@ -396,14 +396,14 @@ nav .nav-link.active:hover{
 .profession_box{
     width: 450px;
     height: auto;
-    background: rgba(13, 15, 20, 0.6);
+    background: rgb(17, 19, 25);
     border-radius: 4px;
     padding: 40px;
 }
 
 .profession_box .badge{
     background: rgba(51, 47, 208, 0.15);
-    padding: 7px 15px;
+    padding: 10px 15px;
     font-size: 0.99rem;
     color: var(--secondary_color);
     font-weight: 500;
