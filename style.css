@@ -251,7 +251,15 @@ nav .nav-link.active:hover{
     color: var(--secondary_color);
 }
 
-
+.about_img{
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 4px;
+    box-shadow:  6px 6px 9px #0d0f14,
+                 -6px -6px 9px #252938;
+}
 
 
 /* END Of CSS */
