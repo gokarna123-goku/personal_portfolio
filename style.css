@@ -25,8 +25,7 @@ a{
     --fw_600: 600;
     --fw_550: 550;
     --fw_500: 500;
-    --transition_3: 0.3s ease-out;
-    --transition_5: 0.5s ease-out;
+    --transition: 0.5s ease-out;
 
 
     /* Demo Colors while selecting color for the portfolio design */
@@ -45,7 +44,7 @@ a{
     box-shadow: none !important;
     border-radius: 0;
     font-size: 1.07rem;
-    font-weight: var(--fw_500);
+    font-weight: 500;
     letter-spacing: 0.02rem;
 }
 .form-control, .form-control.active:focus, .form-control:active:focus{
@@ -82,7 +81,7 @@ a{
     color: var(--secondary_color);
     min-width: 130px;
     height: 40px;
-    transition: var(--transition_5);
+    transition: var(--transition);
 }
 .primary_btn:hover{
     background: transparent;
@@ -95,7 +94,7 @@ a{
     color: var(--primary_color);
     min-width: 120px;
     height: 40px;
-    transition: var(--transition_5);
+    transition: var(--transition);
 }
 .secondary_btn:hover{
     background: var(--primary_color);
@@ -106,7 +105,7 @@ a{
     background: transparent;
     border: 2px solid transparent;
     color: var(--primary_color);
-    transition: var(--transition_5);
+    transition: var(--transition);
 }
 .tertiary_btn:hover{
     color: rgba(51, 47, 208, 0.8);
@@ -151,7 +150,7 @@ nav .nav-link{
     color: var(--tertiary_color);
     margin-left: 1.3rem;
     letter-spacing: 0.01rem;
-    transition: var(--transition_5);
+    transition: var(--transition);
 }
 nav .nav-link:hover{
     color: var(--primary_color);
@@ -174,7 +173,7 @@ nav .nav-link.active:hover{
     display: flex;
     align-items: center;
     justify-content: start;
-    background: rgba(102, 51, 153, 0.02);
+    /* background: rgba(102, 51, 153, 0.02); */
 }
 .hero_section .greeting{
     font-size: 1.5rem;
