@@ -337,6 +337,23 @@ nav .nav-link.active:hover{
     align-items: center;
     gap: 1.2rem;
 }
+.hobbies .hobby_box{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border-left: 5px solid var(--primary_color);
+    background: rgba(51, 47, 208, 0.25);
+}
+.hobby_box i{
+    font-size: 1.0rem;
+    color: var(--secondary_color);
+}
+.hobby_box p{
+    font-size: 0.99rem;
+    color: var(--tertiary_color);
+}
 
 
 /* END Of CSS */
