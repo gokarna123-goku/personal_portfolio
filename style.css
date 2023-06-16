@@ -290,7 +290,7 @@ nav .nav-link.active:hover{
     width: 100%;
     height: auto;
 }
-.about_section .intro{
+.intro{
     font-size: 0.99rem;
     font-weight: 550;
     color: var(--tertiary_color);
@@ -394,7 +394,7 @@ nav .nav-link.active:hover{
     gap: 2.5rem;
 }
 .profession_box{
-    width: 450px;
+    width: 400px;
     height: auto;
     background: rgb(17, 19, 25);
     border-radius: 4px;
@@ -571,9 +571,9 @@ hr{
     border-radius: 10px;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 } */
-.service_card:hover{
+/* .service_card:hover{
     background: var(--primary_color);
-}
+} */
 
 .service_card .service_icon{
     width: 50px;
