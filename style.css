@@ -510,7 +510,7 @@ hr{
 .banner_section .banner_box{
     width: 300px;
     height: auto;
-    background: rgba(51, 47, 208, 0.15);
+    background: rgba(51, 47, 208, 0.02);
     text-align: center;
     border-radius: 4px;
 }
@@ -536,6 +536,26 @@ hr{
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--tertiary_color);
+}
+
+
+
+/* Service Section */
+.service_section{
+    width: 100%;
+    height: auto;
+}
+.service_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.service_card{
+    width: 350px;
+    height: auto;
+    background: rgba(51, 47, 208, 0.15);
 }
 
 
