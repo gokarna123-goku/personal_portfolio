@@ -429,7 +429,7 @@ nav .nav-link.active:hover{
     background: var(--primary_color);
     /* border-radius: 4px; */
 }
-.education .duration{
+.duration{
     font-size: 1.0rem;
     font-weight: 500;
     color: var(--tertiary_color);
@@ -450,6 +450,52 @@ hr{
     background: var(--tertiary_color);
 }
 
+.experience_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+.experience_box{
+    width: 600px;
+    height: auto;
+    background: rgb(17, 19, 25);
+    border-radius: 4px;
+    padding: 40px;
+}
+.experience_box .position{
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: var(--secondary_color);
+    letter-spacing: 0.02rem;
+}
+.experience_box .job_type{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+    font-style: italic;
+}
+.experience_box .desc{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+}
+.experience_box .technology_used{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.technology_used .technology{
+    background: rgba(147, 147, 147, 0.1);
+    padding: 3px 20px;
+    color: var(--primary_color);
+    font-size: 1.0rem;
+    border-radius: 4px;
+}
 
 
 
