@@ -430,9 +430,28 @@ nav .nav-link.active:hover{
     /* border-radius: 4px; */
 }
 .education .duration{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-weight: 500;
     color: var(--tertiary_color);
 }
+.education .edu_title{
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+    letter-spacing: 0.02rem;
+}
+.education .edu_title strong{
+    font-size: 1.12rem;
+    font-weight: 550;
+    color: var(--secondary_color);
+    letter-spacing: 0.02rem;
+}
+hr{
+    background: var(--tertiary_color);
+}
+
+
+
+
 
 /* END Of CSS */
