@@ -427,6 +427,12 @@ nav .nav-link.active:hover{
 }
 .progress .progress-bar{
     background: var(--primary_color);
+    /* border-radius: 4px; */
+}
+.education .duration{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
 }
 
 /* END Of CSS */
