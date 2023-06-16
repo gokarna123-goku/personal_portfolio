@@ -550,12 +550,41 @@ hr{
     height: auto;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 2.0rem;
 }
 .service_card{
-    width: 350px;
+    width: 300px;
     height: auto;
     background: rgba(51, 47, 208, 0.15);
+    border-radius: 4px;
+    padding: 40px 30px;
+    border-bottom: 4px solid var(--primary_color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+/* .service_card{
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+} */
+.service_card:hover{
+    background: var(--primary_color);
+}
+
+.service_card .service_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--secondary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--primary_color);
 }
 
 
