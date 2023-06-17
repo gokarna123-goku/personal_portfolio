@@ -464,13 +464,30 @@ hr{
     height: auto;
     padding: 10px 40px;
     background: var(--primary_color);
+    opacity: 0.68;
 }
 .company_data .company_title{
     font-size: 1.15rem;
     font-weight: 550;
     color: var(--secondary_color);
-    opacity: 0.68;
+    opacity: 1;
     letter-spacing: 0.05rem;
+}
+.company_data .company_tag{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 0.87rem;
+    color: var(--secondary_color);
+    opacity: 0.9;
+}
+.company_data .company_location{
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--secondary_color);
+    opacity: 0.75;
+    letter-spacing: 0.04rem;
+    font-style: italic;
 }
 .experience_data{
     padding: 40px;
