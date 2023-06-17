@@ -606,5 +606,29 @@ hr{
 }
 
 
+/* Portfolio Section */
+.portfolio_section{
+    width: 100%;
+    height: auto;
+}
+
+.portfolio_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portfolio_card{
+    width: 400px;
+    height: 45vh;
+    overflow: hidden;
+}
+.portfolio_card
+
+
+
+
 
 /* END Of CSS */
