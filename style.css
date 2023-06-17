@@ -455,26 +455,44 @@ hr{
     height: auto;
     background: rgb(17, 19, 25);
     border-radius: 4px;
+    padding: 0px;
+    /* border-top: 4px solid var(--primary_color); */
+    overflow: hidden;
+}
+.company_data{
+    width: 100%;
+    height: auto;
+    padding: 10px 40px;
+    background: var(--primary_color);
+}
+.company_data .company_title{
+    font-size: 1.15rem;
+    font-weight: 550;
+    color: var(--secondary_color);
+    opacity: 0.68;
+    letter-spacing: 0.05rem;
+}
+.experience_data{
     padding: 40px;
 }
-.experience_box .position{
+.experience_data .position{
     font-size: 1.3rem;
     font-weight: 550;
     color: var(--secondary_color);
     letter-spacing: 0.02rem;
 }
-.experience_box .job_type{
+.experience_data .job_type{
     font-size: 1.0rem;
     font-weight: 500;
     color: var(--tertiary_color);
     font-style: italic;
 }
-.experience_box .desc{
+.experience_data .desc{
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--tertiary_color);
 }
-.experience_box .technology_used{
+.experience_data .technology_used{
     width: 100%;
     height: auto;
     display: flex;
