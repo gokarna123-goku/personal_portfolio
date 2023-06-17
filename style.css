@@ -609,13 +609,15 @@ hr{
     height: auto;
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    flex-wrap: wrap;
+    column-gap: 2.0rem;
+    row-gap: 2.5rem;
 }
 
 .portfolio_card{
     position: relative;
-    width: 400px;
-    height: 55vh;
+    width: 420px;
+    height: 60vh;
     border-radius: 4px;
     box-shadow:  4px 4px 9px #0d0f14,
                 -4px -4px 9px #181b25;
