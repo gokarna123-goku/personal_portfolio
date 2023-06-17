@@ -16,16 +16,8 @@ a{
     --primary_color: #332FD0;
     --secondary_color: #ffffff;
     --tertiary_color: #939393;
-    --text_xxl: 4.0rem;
-    --text_xl: 2.5rem;
-    --text_l: 1.3rem;
-    --text_m: 1.0rem;
-    --text_sm: 0.99rem;
-    --fw_bold: bold;
-    --fw_600: 600;
-    --fw_550: 550;
-    --fw_500: 500;
     --transition: 0.5s ease-out;
+    --bg_gradient_portfolio: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
 
 
     /* Demo Colors while selecting color for the portfolio design */
@@ -621,6 +613,7 @@ hr{
 }
 
 .portfolio_card{
+    position: relative;
     width: 400px;
     height: 55vh;
     border-radius: 4px;
@@ -633,6 +626,34 @@ hr{
     height: 100%;
     object-fit: cover;
     object-position: right;
+}
+
+.portfolio_data{
+    position: absolute;
+    bottom: 0;
+    background: var(--bg_gradient_portfolio);
+    width: 100%;
+    height: auto;
+    padding: 30px 25px 20px 25px;
+    font-size: 0.99rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+}
+.portfolio_data .portfolio_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    color: var(--secondary_color);
+}
+.portfolio_data .portfolio_cat{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+    letter-spacing: 0.02rem;
 }
 
 
