@@ -806,6 +806,21 @@ footer .logo_section span{
     color: var(--tertiary_color);
     letter-spacing: 0.05rem;
 }
+footer .footer_desc{
+    font-size: 1.0rem;
+    color: var(--tertiary_color);
+    opacity: 0.7;
+}
+footer .copy{
+    font-size: 0.9rem;
+    color: var(--tertiary_color);
+    opacity: 0.3;
+}
+footer .copy a{
+    font-size: 0.9rem;
+    color: var(--secondary_color);
+    opacity: 1;
+}
 
 
 
