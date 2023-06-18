@@ -711,6 +711,20 @@ hr{
 }
 
 
+/* Divider Section */
+.divider_section{
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+}
+.divider_section .divider{
+    width: 100%;
+    height: 1.5px;
+    background: var(--tertiary_color);
+    opacity: 0.3;
+}
+
+
 
 
 
