@@ -784,6 +784,28 @@ hr{
     opacity: 0.66;
 }
 
+footer{
+    width: 100%;
+    height: auto;
+    padding: 60px 100px;
+    background: #0d0f14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .logo_section{
+    font-size: 2.76rem;
+    font-weight: 600;
+    color: var(--primary_color);
+    letter-spacing: 0.05rem;
+}
+footer .logo_section span{
+    font-size: 2.0rem;
+    font-weight: 550;
+    color: var(--tertiary_color);
+    letter-spacing: 0.05rem;
+}
 
 
 
