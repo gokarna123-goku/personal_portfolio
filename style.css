@@ -731,6 +731,22 @@ hr{
     width: 100%;
     height: auto;
 }
+.blog_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    row-gap: 1.7rem;
+}
+.blog_box .blog_card{
+    width: 330px;
+    height: auto;
+    background: var(--tertiary_color);
+    padding: 10px;
+    box-shadow: 4px 4px 10px #252938;
+    border-radius: 4px;
+}
 
 
 
