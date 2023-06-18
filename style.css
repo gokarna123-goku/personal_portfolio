@@ -742,10 +742,11 @@ hr{
 .blog_box .blog_card{
     width: 330px;
     height: auto;
-    background: var(--tertiary_color);
-    padding: 10px;
-    box-shadow: 4px 4px 10px #252938;
-    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 10px #252938,
+                -4px -4px 10px #252938;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 
