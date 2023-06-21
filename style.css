@@ -798,6 +798,10 @@ hr{
     background: linear-gradient(145deg, #1b1e29, #171922);
     box-shadow:  2px 2px 9px #0a0b0f,
                 -2px -2px 9px #181b24;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 2.5rem;
 }
 .contact_card{
     width: 100%;
@@ -822,9 +826,16 @@ hr{
     flex-direction: column;
 }
 .contact_data .title{
+    font-size: 1.0rem;
+    font-weight: 550;
+    color: var(--tertiary_color);
+}
+.contact_data .data{
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--tertiary_color);
+    color: var(--secondary_color);
+    letter-spacing: 0.05rem;
+    opacity: 0.8;
 }
 
 
