@@ -785,6 +785,19 @@ hr{
     opacity: 0.66;
 }
 
+
+
+/* Contact Section */
+.contact_section{
+    width: 100%;
+    min-height: 40vh;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Footer Section */
+
 footer{
     width: 100%;
     height: auto;
@@ -822,6 +835,8 @@ footer .copy a{
     color: var(--secondary_color);
     opacity: 1;
 }
+
+
 
 
 
