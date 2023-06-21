@@ -205,9 +205,14 @@ nav .nav-link.active:hover{
 }
 .hero_section .professional{
     font-size: 3.0rem;
-    color: var(--primary_color);
+    color: var(--secondary_color);
     letter-spacing: 0.03rem;
     font-weight: 550;
+    opacity: 0.7;
+}
+.hero_section .professional #element{
+    font-size: 3.0rem;
+    color: var(--primary_color);
 }
 .hero_section .desc{
     font-size: 1.15rem;
