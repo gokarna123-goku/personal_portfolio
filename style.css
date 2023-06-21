@@ -816,7 +816,16 @@ hr{
     font-size: 2.2rem;
     color: var(--primary_color);
 }
-
+.contact_data{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact_data .title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+}
 
 
 
