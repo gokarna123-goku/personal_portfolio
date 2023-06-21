@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+    <!-- Typed js animation cdn link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Bootstrap css cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -67,7 +69,7 @@
                 <div class="col-lg-7 d-flex align-items-start justify-content-center flex-column">
                     <h6 class="greeting mb-2">Hey, There ! 👋</h6>
                     <h1 class="intro mb-3">It's Gokarna Adhikari</h1>
-                    <h5 class="professional mb-4">And I'm a Front-end Developer</h5>
+                    <h5 class="professional mb-4">And I'm a <span id="element" style="color: #707070;"></span></h5>
                     <p class="desc pe-5 mb-5">
                         I design and develop services for customers of all sizes, modern websites, specializing in
                         creating stylish, web services and online stores. My passion is to design digital user
@@ -686,6 +688,18 @@
 
     <!-- Custom JavaScript link -->
     <script src="main.js"></script>
+
+    <!-- Types js -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-end Developer.', 'Freelancer.', 'Vlogger.', 'Youtuber.'],
+            typeSpeed: 60,
+            backSpeed: 50,
+            backDelay: 500,
+            startDelay: 700,
+            loop: true,
+        });
+    </script>
 
     <!-- Bootstrap (<= Bundle => ) JavaScript cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
