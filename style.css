@@ -844,9 +844,12 @@ hr{
 }
 .contact_box .form-control{
     border-radius: 4px;
+    height: 45px;
     background: transparent;
-    border: 1px solid ;
+    border: 2px solid #3a3e4e;
     outline: none;
+    color: var(--tertiary_color);
+    padding: 0 15px;
 }
 
 
