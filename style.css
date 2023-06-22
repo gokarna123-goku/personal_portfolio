@@ -917,6 +917,33 @@ footer .copy a{
 }
 
 
+/* Responsive Codes here */
+@media screen and ( max-width:1024px ) {
+    .main_padding {
+        padding: 60px;
+    }
+    .abt_img_box .experience {
+        left: 11.5%;
+        font-size: 1.3rem;
+    }
+    .abt_data .hobbies {
+        flex-wrap: wrap;
+    }
+    .service_card {
+        width: 431px;
+    }
+    .portfolio_card {
+        width: 432px;
+    }
+    .blog_box .blog_card {
+        width: 435px;
+    }
+    .blog_card .blog_img {
+        height: 41vh;
+    }
+}
+
+
 
 
 
