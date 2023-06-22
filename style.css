@@ -941,17 +941,31 @@ footer .copy a{
     .blog_card .blog_img {
         height: 41vh;
     }
+    footer {
+        padding: 60px;
+    }
 }
 
-@media screen and ( max-width:1024px ) {
+@media screen and ( max-width:768px ) {
+    nav{
+        background: rgba(0, 0, 0, 0.35);
+    }
+    .hero_section {
+        background: rgba(0, 0, 0, 0.35);
+    }
     .hero_section .intro {
-        font-size: 3.6rem;
+        font-size: 2.75rem;
+        letter-spacing: 0.02rem;
     }
     .hero_section .professional {
-        font-size: 2.55rem;
+        font-size: 2.32rem;
     }
     .hero_section .professional #element {
-        font-size: 2.55rem;
+        font-size: 2.34rem;
+    }
+    .hero_section .desc {
+        font-size: 1.07rem;
+        letter-spacing: 0.0rem;
     }
     .tag {
         font-size: 2.2rem;
@@ -1000,6 +1014,80 @@ footer .copy a{
     }
 }
 
+@media screen and ( max-width:600px ) {
+    .nav_padding {
+        padding: 10px 20px;
+    }
+    .main_padding {
+        padding: 60px 40px;
+    }
+    .hero_section .intro {
+        font-size: 2.35rem;
+        letter-spacing: 0.0rem;
+    }
+    .hero_section .professional {
+        font-size: 2.02rem;
+    }
+    .hero_section .professional #element {
+        font-size: 2.04rem;
+    }
+    .hero_section .desc {
+        font-size: 0.99rem;
+    }
+    .tag {
+        font-size: 1.8rem;
+    }
+    .banner_section .banner_box {
+        width: 100%;
+        padding: 35px;
+    }
+    .about_img {
+        height: 60vh;
+    }
+    .portfolio_card {
+        height: 60vh;
+    }
+    .divider_section {
+        padding: 10px 40px;
+    }
+    .blog_card .blog_img {
+        height: 30vh;
+    }
+    footer {
+        padding: 60px 40px;
+    }
+}
+
+@media screen and ( max-width:425px ) {
+    .nav_padding {
+        padding: 10px 8px;
+    }
+    .main_padding {
+        padding: 60px 20px;
+    }
+    .hero_section .intro {
+        font-size: 1.8rem;
+    }
+    .hero_section .professional {
+        font-size: 1.75rem;
+    }
+    .hero_section .professional #element {
+        font-size: 1.8rem;
+    }
+    .hero_section .desc {
+        font-size: 0.99rem;
+    }
+    .tag {
+        font-size: 2.07rem;
+    }
+    .banner_section .banner_box {
+        width: 100%;
+        padding: 35px;
+    }
+    footer {
+        padding: 60px 20px;
+    }
+}
 
 
 
