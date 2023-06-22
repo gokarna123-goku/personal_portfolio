@@ -943,6 +943,49 @@ footer .copy a{
     }
 }
 
+@media screen and ( max-width:1024px ) {
+    .hero_section .intro {
+        font-size: 3.6rem;
+    }
+    .hero_section .professional {
+        font-size: 2.55rem;
+    }
+    .hero_section .professional #element {
+        font-size: 2.55rem;
+    }
+    .abt_img_box {
+        margin-bottom: 3.5rem;
+    }
+    .abt_img_box .experience {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skill_education_section {
+        flex-wrap: wrap;
+        gap: 2.5rem;
+    }
+    .profession_box {
+        width: 100%;
+    }
+    .banner_section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner_section .banner_box {
+        width: 222px;
+    }
+    .count_section .count {
+        font-size: 3.2rem;
+    }
+    .banner_box .title {
+        font-size: 1.2rem;
+    }
+}
 
 
 
