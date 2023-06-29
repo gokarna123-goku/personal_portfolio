@@ -1014,6 +1014,33 @@ footer .copy a{
     color: var(--secondary_color_light);
 }
 
+/* Contact */
+.light-mode .contact_section{
+    background: rgba(231, 231, 231, 0.5);
+}
+.light-mode .contact_box{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow:  0.5px 0.5px 9px #e6e6e6,
+                -0.5px -0.5px 9px #c4c6cf;
+}
+.light-mode .contact_icon{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow:  1px 1px 2px #c6c6c6,
+                -1px -1px 2px #c5cde9;
+}
+.light-mode .contact_data .title{
+    color: var(--tertiary_color);
+}
+.light-mode .contact_data .data{
+    color: var(--secondary_color_light);
+}
+.light-mode .contact_box .form-control{
+    border: 2px solid #c1cbed;
+    color: var(--tertiary_color_light);
+}
+
+
+
 
 
 
