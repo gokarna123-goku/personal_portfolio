@@ -976,6 +976,13 @@ footer .copy a{
     color: var(--secondary_color_light);
 }
 
+/* Banner */
+.light-mode .banner_section{
+    background: #4f6595;
+}
+.light-mode .banner_section .banner_box{
+    background: rgba(46, 45, 102, 0.2);
+}
 
 
 
