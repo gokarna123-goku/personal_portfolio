@@ -25,7 +25,7 @@ a{
     /* ===============X Light Mode Color X=============== */
     --bg_color_light: #fefefe;
     --secondary_color_light: #191c26;
-    --tertiary_color_light: #939393;
+    --tertiary_color_light: #3c3c3c;
     /* --transition: 0.5s ease-out; */
     /* --bg_gradient_portfolio: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
  */
@@ -982,6 +982,20 @@ footer .copy a{
 }
 .light-mode .banner_section .banner_box{
     background: rgba(46, 45, 102, 0.2);
+}
+.light-mode .banner_box .title{
+    color: var(--tertiary_color_light);
+}
+
+/* Service */
+.light-mode .service_card{
+    background: rgba(51, 47, 208, 0.75);
+}
+.light-mode .service_card:hover{
+    background: rgba(51, 47, 208, 0.80);
+}
+.light-mode .service_card .desc{
+    color: var(--tertiary_color_light);
 }
 
 
