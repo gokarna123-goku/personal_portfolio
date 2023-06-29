@@ -998,6 +998,14 @@ footer .copy a{
     color: var(--tertiary_color_light);
 }
 
+/* Portfolio */
+.light-mode .portfolio_card{
+    box-shadow:  4px 4px 9px #b5b5b5,
+                 -4px -4px 9px #b4bcda;
+}
+
+
+
 
 
 
