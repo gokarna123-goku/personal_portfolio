@@ -917,6 +917,19 @@ footer .copy a{
 }
 
 
+
+/* =======================X Light Mode Styling X======================= */
+
+/* Light Mode */
+.light-mode {
+    background: var(--bg-light);
+    color: var(--primary-light);
+}
+
+
+
+
+
 /* Responsive Codes here */
 @media screen and ( max-width:1024px ) {
     .main_padding {
