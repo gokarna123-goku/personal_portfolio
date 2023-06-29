@@ -946,7 +946,23 @@ footer .copy a{
     background: var(--bg_color_light);
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
 }
-
+.light-mode .about_img{
+    box-shadow:  6px 6px 9px #b5b5b5,
+                 -6px -6px 9px #b4bcda;
+}
+.light-mode .tag{
+    color: var(--secondary_color_light);
+}
+.light-mode .hobbies .hobby_box{
+    border-left: 5px solid var(--primary_color);
+    background: rgba(51, 47, 208, 0.55);
+}
+.light-mode .hobby_box i{
+    color: var(--primary_color);
+}
+.light-mode .hobby_box p{
+    color: var(--secondary_color_light);
+}
 
 
 
