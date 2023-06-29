@@ -197,6 +197,14 @@ nav .nav-link:focus, nav .nav-link:active:focus,
 nav .nav-link.active:hover{
     color: var(--primary_color);
 }
+#toggle-icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url('./img/sun.png');
+    background-size: contain;
+    cursor: pointer;
+}
 
 
 .hero_section{

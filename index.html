@@ -59,7 +59,9 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <!-- <button class="btn tertiary_btn px-3 py-0">Join Discord</button> -->
+                        <div class="toggle_mode_section bg-danger">
+                            <span id="toggle-icon" onclick="changeMode()"></span>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -638,13 +640,15 @@
                                 <div class="col-lg-6">
                                     <div class="mb-4">
                                         <label for="fullname" class="label_name mb-2">First Name</label>
-                                        <input type="text" id="fullname" name="fullname" autocomplete="off" class="form-control">
+                                        <input type="text" id="fullname" name="fullname" autocomplete="off"
+                                            class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-4">
                                         <label for="email" class="label_name mb-2">Email</label>
-                                        <input type="email" id="email" name="email" autocomplete="off" class="form-control">
+                                        <input type="email" id="email" name="email" autocomplete="off"
+                                            class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -654,7 +658,8 @@
                             </div>
                             <div class="mb-4">
                                 <label for="message" class="label_name mb-2">Message</label>
-                                <textarea cols="30" rows="6" id="message" name="message" autocomplete="off" class="form-control"></textarea>
+                                <textarea cols="30" rows="6" id="message" name="message" autocomplete="off"
+                                    class="form-control"></textarea>
                             </div>
                             <button class="btn primary_btn px-4">Submit</button>
                         </form>
