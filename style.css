@@ -155,6 +155,7 @@ nav{
     width: 100%;
     height: 80px;
     background: transparent;
+    z-index: 1;
 }
 nav.fixed{
     position: fixed;
@@ -163,6 +164,10 @@ nav.fixed{
     background: var(--bg_color);
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
     z-index: 1;
+}
+nav .nav_items{
+    background: transparent;
+    z-index: 999;
 }
 nav .logo_section{
     font-size: 2.0rem;
@@ -942,10 +947,15 @@ footer .copy a{
     background: var(--bg_color_light);
     color: var(--secondary_color_light);
 }
+/* Navbar */
 .light-mode nav.fixed{
     background: var(--bg_color_light);
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
 }
+.light-mode nav .nav_items{
+    background: transparent;
+}
+
 /* About Us */
 .light-mode .about_img{
     box-shadow:  6px 6px 9px #b5b5b5,
@@ -1081,6 +1091,12 @@ footer .copy a{
 @media screen and ( max-width:768px ) {
     nav{
         background: rgba(0, 0, 0, 0.35);
+    }
+    nav .nav_items{
+        background: var(--bg_color);
+    }
+    .light-mode nav .nav_items{
+        background: var(--bg_color_light);
     }
     .hero_section {
         background: rgba(0, 0, 0, 0.35);
