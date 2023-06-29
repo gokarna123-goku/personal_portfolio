@@ -946,6 +946,7 @@ footer .copy a{
     background: var(--bg_color_light);
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
 }
+/* About Us */
 .light-mode .about_img{
     box-shadow:  6px 6px 9px #b5b5b5,
                  -6px -6px 9px #b4bcda;
@@ -963,6 +964,18 @@ footer .copy a{
 .light-mode .hobby_box p{
     color: var(--secondary_color_light);
 }
+/* Professionalism */
+.light-mode .my_professional_info .nav-pills .nav-link{
+    color: var(--secondary_color_light);
+}
+.light-mode .my_professional_info .nav-pills .nav-link:hover{
+    color: var(--tertiary_color);
+}
+.light-mode .my_professional_info .nav-pills .nav-link.active, 
+.my_professional_info .nav-pills .show>.nav-link {
+    color: var(--secondary_color_light);
+}
+
 
 
 
