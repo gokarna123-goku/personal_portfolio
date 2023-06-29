@@ -1004,7 +1004,15 @@ footer .copy a{
                  -4px -4px 9px #b4bcda;
 }
 
-
+/* Blog */
+.light-mode .blog_box .blog_card{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow:  4px 4px 9px #b5b5b5,
+                -4px -4px 9px #b4bcda;
+}
+.light-mode .blog_data .blog_title{
+    color: var(--secondary_color_light);
+}
 
 
 
