@@ -23,9 +23,9 @@ a{
     --bg_gradient_portfolio: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
 
     /* ===============X Light Mode Color X=============== */
-    --bg_color: #fefefe;
-    --secondary_color: #191c26;
-    --tertiary_color: #939393;
+    --bg_color_light: #fefefe;
+    --secondary_color_light: #191c26;
+    --tertiary_color_light: #939393;
     /* --transition: 0.5s ease-out; */
     /* --bg_gradient_portfolio: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
  */
@@ -201,7 +201,7 @@ nav .nav-link.active:hover{
     display: block;
     width: 25px;
     height: 25px;
-    background-image: url('./img/sun.png');
+    background-image: url('./img/mode/sun.png');
     background-size: contain;
     cursor: pointer;
 }
@@ -939,8 +939,8 @@ footer .copy a{
 
 /* Light Mode */
 .light-mode {
-    background: var(--bg-light);
-    color: var(--primary-light);
+    background: var(--bg_color_light);
+    color: var(--secondary_color_light);
 }
 
 
