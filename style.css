@@ -942,6 +942,10 @@ footer .copy a{
     background: var(--bg_color_light);
     color: var(--secondary_color_light);
 }
+.light-mode nav.fixed{
+    background: var(--bg_color_light);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
+}
 
 
 
