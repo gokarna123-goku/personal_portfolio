@@ -295,8 +295,9 @@ nav .nav-link.active:hover{
 .about_img{
     width: 100%;
     height: 75vh;
+    /* filter: brightness(50%); */
     object-fit: cover;
-    object-position: right;
+    object-position: center;
     border-radius: 4px;
     box-shadow:  6px 6px 9px #0d0f14,
                  -6px -6px 9px #252938;
